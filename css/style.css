@@ -243,3 +243,48 @@ footer{
     line-height: 35px;
   }
 }
+/* For laptop screen with 375px and less*/
+@media screen and (max-width: 375px){
+  .header-content h2{
+    font-size: 9px;
+  }
+  .services{
+    margin-top: -15vh;
+  }
+  .service-content{
+    display: block;
+    margin-top: 5vh;
+    padding-top: 1px;
+  }
+  .bucket{
+    width: 100%;
+    margin: 20px 3%;
+  }
+  .intro-text p{
+    line-height: 35px;
+  }
+}
+
+/* For laptop screen with 325px and less*/
+@media screen and (max-width: 325px){
+  .services{
+    margin-top: -12vh;
+    height: 118vh;
+  }
+  
+  .bucket{
+    
+    width: 100%;
+    margin: 15px 3%;
+  }
+  .intro-text >p{
+    line-height: 35px; 
+   }
+   .contact-section div{
+    padding: 1px 3%;
+    margin-top: 10px;
+  }
+
+}
+
+
